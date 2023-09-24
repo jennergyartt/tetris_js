@@ -23,6 +23,7 @@
         let gameInterval = null;
 
         function getRandomTetromino() {
+            console.log("getRandomTetromino")
             const index = Math.floor(Math.random() * TETROMINOES.length);
             return TETROMINOES[index];
         }
