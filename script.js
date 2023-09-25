@@ -29,6 +29,7 @@
         }
 
         function drawGameBoard() {
+            console.log("drawGameBoard")
             const gameBoardElement = document.getElementById('game-board');
             gameBoardElement.innerHTML = '';
 
