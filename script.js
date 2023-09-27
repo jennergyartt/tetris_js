@@ -58,6 +58,7 @@
         }
 
         function moveDown() {
+            console.log("moveDown")
             if (canMoveDown()) {
                 currentRow++;
             } else {
