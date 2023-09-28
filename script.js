@@ -67,6 +67,7 @@
         }
 
         function placeTetromino() {
+            console.log("placeTetromino")
             for (let row = 0; row < currentTetromino.length; row++) {
                 for (let col = 0; col < currentTetromino[row].length; col++) {
                     if (currentTetromino[row][col]) {
