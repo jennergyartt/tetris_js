@@ -88,6 +88,7 @@
         }
 
         function checkRows() {
+            console.log("checkRows")
             for (let row = HEIGHT - 1; row >= 0; row--) {
                 if (gameBoard[row].every(cell => cell !== null)) {
                     gameBoard.splice(row, 1);
