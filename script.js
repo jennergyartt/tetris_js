@@ -113,6 +113,7 @@
         }
 
         function handleKeyPress(event) {
+            console.log("handleKeyPress")
             switch (event.key) {
                 case 'ArrowLeft':
                     if (currentCol > 0) {
