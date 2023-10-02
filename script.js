@@ -135,6 +135,7 @@
         }
 
         function rotateTetromino() {
+            console.log("canMoveDown")
             const newTetromino = [];
             for (let col = 0; col < currentTetromino[0].length; col++) {
                 const newRow = [];
